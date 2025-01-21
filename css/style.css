@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar{
-    background-color: #242424;
+    background-color: #202020;
 }
 
 .navbar a{
@@ -21,11 +21,16 @@ h1,h2,h3,h4,h5,h6{
     display: block;
     color: white;
     text-align: center;
-    padding: 50px 60px;
+    padding: 50px 80px;
     text-decoration: none;
     font-family: helvetica;
     font-size: 30px;
     height: 100%;
+}
+
+.navbar a:hover{
+    color: #ec7411;
+    transition: 0.7s;
 }
 
 .navbar img{
@@ -101,15 +106,15 @@ section.module.parallax:after{
 }  
 
 section.module.parallax-1{
-    background-image: url(img/img005.jpeg);
+    background-image: url(../img/img005.jpeg);
 }
 
 section.module.parallax-2{
-    background-image: url(img/img002.jpg);
+    background-image: url(../img/img002.jpg);
 }
 
 section.module.parallax-3{
-    background-image: url(img/img003.jpg);
+    background-image: url(../img/img003.jpg);
 }
 
 section.module.parallax h1{
