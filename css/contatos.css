@@ -73,6 +73,18 @@ main{
     margin: 0 auto;
     padding: 0 20px;
 }
+.container img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.container p {
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 section.module p{
     margin-bottom: 40px;
