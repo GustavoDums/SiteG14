@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -13,28 +15,37 @@ body{
     padding: 0%;
 }
 
-.btn {
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 50px 80px;
-    text-decoration: none;
-    font-family: helvetica;
-    font-size: 30px;
-    height: 100%;
-}
-
-.btn:hover{
-    color: #ec7411;
-    transition: 0.7s;
-}
-
 .navbar img{
     border-radius: 50%;
     height: 7%;
     width: 7%;
     border: 9px solid black;
+}
+
+section.module.content a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 50px 70px;
+    text-decoration: none;
+    font-family: Lexend Giga;
+    font-size: 25px;
+    height: 100%;
+
+}
+
+.btn:hover{
+    color: #ec7411;
+    transition: 0.7s;
 }
 
 .wrapper {
