@@ -9,43 +9,21 @@ body{
     overflow-wrap: break-word;
     box-sizing: border-box;
 }
-.navbar{
-    background-color: #202020;
-    margin: 0%;
-    padding: 0%;
-}
 
-.navbar img{
+nav img{
     border-radius: 50%;
-    height: 7%;
-    width: 7%;
-    border: 9px solid black;
+    width: 30%;
+    height: 30%;
 }
 
-section.module.content a{
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.btn {
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 50px 70px;
-    text-decoration: none;
+nav a{
     font-family: Lexend Giga;
-    font-size: 25px;
-    height: 100%;
-
+    color: rgb(223, 223, 223);
 }
 
-.btn:hover{
-    color: #ec7411;
-    transition: 0.7s;
+.nav-link:hover{
+    color: #e69232;
+    transition: 0.8s;
 }
 
 .wrapper {
