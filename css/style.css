@@ -151,6 +151,12 @@ section .slider-title{
     color: black;
     font-size: 50px;
 }
+section.calendar h1{
+    margin-bottom: 40px;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
 
 section .slider-a{
     text-decoration: none;
