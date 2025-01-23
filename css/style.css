@@ -94,6 +94,11 @@ section.module.content{
     background: #e69232;
 }
 
+.localImg{
+    width: 60px;
+    height: 60px;
+}
+
 section.module.parallax{
     display: flex;
     flex-direction: column;

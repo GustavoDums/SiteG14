@@ -1,20 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
 
-body{
-    background: url(../img/img005.jpeg);
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    font-family: "Roboto", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;      
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .navbar{
     background-color: #202020;
-    margin: 0%;
-    padding: 0%;
+
 }
 
 .navbar img{
@@ -37,12 +31,13 @@ section.module.content a{
     display: block;
     color: white;
     text-align: center;
-    padding: 50px 70px;
+    padding: 25px 30px;
     text-decoration: none;
     font-family: Lexend Giga;
     font-size: 25px;
     height: 100%;
-
+    overflow: auto;
+    position: relative;
 }
 
 .btn:hover{
@@ -50,10 +45,65 @@ section.module.content a{
     transition: 0.7s;
 }
 
-footer{
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    font-size: small;
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box:before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    background-image: linear-gradient(180deg, transparent, black);
+}
+
+.slide-imagens{
+    width: 100%;
+    height: 100%;
+}
+
+.slide-imagens img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-thumbnail{
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    z-index: 2;
+    width: 900px;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.slide-thumbnail .swiper-slide{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter .3s ease;
+}
+
+.slide-thumbnail .swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-thumbnail .swiper-slide-thumb-active{
+    filter: grayscale(0);
 }
