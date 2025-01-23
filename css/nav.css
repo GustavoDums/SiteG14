@@ -90,11 +90,43 @@ main{
     vertical-align: middle;
     font-weight: bold;
 }
+.container h2 { flex-direction: column;
+    
+}
+
+.module.content {
+    font-weight: bold;
+}
+
+.module.parallax.parallax-1 h2{
+    
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+.module.parallax.parallax-2 h2{
+    
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    z-index: 50;
+    text-transform: uppercase;
+}
 
 .container p {
     font-weight: bold;
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.module.content img {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    font-weight: bold;
+    
 }
 
 section.module p{
