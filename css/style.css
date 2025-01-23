@@ -75,6 +75,11 @@ section.module.parallax h1{
     text-transform: uppercase;
 }
 
+.calendar-container{
+    padding: 40px;
+    width: 100%;
+}
+
 section.module h2{
     margin-bottom: 40px;
     font-size: 30px;
