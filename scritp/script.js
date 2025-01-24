@@ -16,17 +16,3 @@ function proximaImg(){
 
     document.getElementById('radio'+cont).checked = true
 }
-
-
-window.onload = function(){
-
-    var iframe = document.body.querySelector("iframe");
- 
-    iframe.onload = function(){
-       var iframeDocument = iframe.contentDocument || iframe.contentWindow.document,
-       ads = iframeDocument.body.querySelector("#aw0 img");
- 
-       ads.style.cssText = "width: 100%; height: auto;";
-    }
- 
- }
