@@ -21,6 +21,10 @@ nav a{
     color: rgb(223, 223, 223);
 }
 
+.contatos-link{
+    color: #e69232;
+}
+
 .nav-link:hover{
     color: #e69232;
     transition: 0.8s;
@@ -56,8 +60,8 @@ main{
     font-weight: bold;
 }
 
-.container h2 { flex-direction: column;
-    
+.container h2 { 
+    flex-direction: column;
 }
 
 .module.content {
@@ -102,6 +106,14 @@ section.module p{
 
 section.module:last-child{
     margin-bottom: 0;
+}
+
+section.module.parallax h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    z-index: 50;
+    text-transform: uppercase;
 }
 
 section.module h2{

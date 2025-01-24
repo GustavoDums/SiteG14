@@ -29,6 +29,11 @@ nav a{
     padding: 90px;
 }
 
+.efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localização,
+.efeito-title-agenda, .efeito-iframe-maps{
+    visibility: hidden;
+}
+
 .nav-link:hover{
     color: #e69232;
     transition: 0.8s;
@@ -38,11 +43,6 @@ nav a{
     width: 100%;
     margin: 0 auto;
     padding: auto;
-}
-
-.efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localização,
-.efeito-title-agenda, .efeito-iframe-maps{
-    visibility: hidden;
 }
 
 main{
@@ -79,7 +79,7 @@ section.module.parallax .container img{
 section.module.parallax h1{
     color: white;
     text-align: center;
-    font-size: 78px;
+    font-size: 60px;
     z-index: 50;
     text-transform: uppercase;
 }
