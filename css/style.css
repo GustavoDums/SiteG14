@@ -40,6 +40,11 @@ nav a{
     padding: auto;
 }
 
+.efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localização,
+.efeito-title-agenda, .efeito-iframe-maps{
+    visibility: hidden;
+}
+
 main{
     display: block;
     background-color: white;
