@@ -25,6 +25,10 @@ nav a{
     color: rgb(223, 223, 223);
 }
 
+iframe{
+    padding: 60px;
+}
+
 .calendar-container{
     padding: 90px;
 }

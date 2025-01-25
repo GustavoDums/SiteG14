@@ -6,7 +6,7 @@ window.revelar = ScrollReveal({reset:true})
 revelar.reveal('.efeito-logo',
 {
     duration: 2000,
-    distance: '90px'
+    distance: '100px'
 })
 
 // titulos do site
@@ -64,7 +64,7 @@ revelar.reveal('.efeito-subtitle-localização',
 revelar.reveal('.efeito-iframe-maps',
 {
     duration: 2000,
-    distance: '350px',
+    distance: '1200px',
     delay: 400,
     origin: 'right'
 })
