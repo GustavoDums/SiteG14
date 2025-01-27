@@ -64,8 +64,8 @@ revelar.reveal('.efeito-subtitle-localização',
 revelar.reveal('.efeito-iframe-maps',
 {
     duration: 2000,
-    distance: '1200px',
+    distance: '200px',
     delay: 400,
-    origin: 'right'
+    origin: 'bottom'
 })
 
