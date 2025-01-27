@@ -61,6 +61,13 @@ main{
     padding: 0 20px;
 }
 
+.contatos-imagem{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
 section.module p{
     margin-bottom: 40px;
     font-size: 20px;
@@ -142,6 +149,14 @@ section.module.parallax-2{
 
 section.module.parallax-3{
     background-image: url(../img/imagem-cadeiras-garagem.jpg);
+}
+
+section.module.parallax-4{
+    background-image: url(../img/imagem-patio-02.jpg);
+}
+
+section.module.parallax-5{
+    background-image: url(../img/imagem-patio.jpg);
 }
 
 section.module.parallax-3 h1{

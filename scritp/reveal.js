@@ -14,15 +14,15 @@ revelar.reveal('.efeito-logo',
 revelar.reveal('.efeito-title',
 {
     duration: 2000,
-    distance: '300px',
+    distance: '100px',
     delay: 100
 })
 
 revelar.reveal('.efeito-title-agenda',
 {
-    duration: 2200,
-    distance: '150px',
-    delay: 500
+    duration: 2000,
+    distance: '80px',
+    delay: 400
 })
 
 // textos do site
@@ -30,17 +30,15 @@ revelar.reveal('.efeito-title-agenda',
 revelar.reveal('.efeito-subtitle',
 {
     duration: 2200,
-    distance: '200px',
+    distance: '60px',
     delay: 400,
-    origin: 'right'
 })
 
 revelar.reveal('.efeito-texto',
 {
     duration: 2100,
-    distance: '250px',
+    distance: '80px',
     delay: 600,
-    origin: 'left'
 })
 
 revelar.reveal('.slider-a',
@@ -48,15 +46,13 @@ revelar.reveal('.slider-a',
     duration: 2000,
     distance: '300px',
     delay: 800,
-    origin: 'right'
 })
 
 revelar.reveal('.efeito-subtitle-localização',
 {
     duration: 2000,
-    distance: '350px',
+    distance: '100px',
     delay: 200,
-    origin: 'left'
 })
 
 // efeito iframe
@@ -64,8 +60,7 @@ revelar.reveal('.efeito-subtitle-localização',
 revelar.reveal('.efeito-iframe-maps',
 {
     duration: 2000,
-    distance: '200px',
+    distance: '150px',
     delay: 400,
-    origin: 'bottom'
 })
 

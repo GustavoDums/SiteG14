@@ -16,3 +16,13 @@ function proximaImg(){
 
     document.getElementById('radio'+cont).checked = true
 }
+
+function fechar() {
+    const navBar = document.getElementById('navbarNavDropdown');
+    const navToggle = document.querySelector('.navbar-toggler');
+
+    if (navBar.classList.contains('show')) {
+        navBar.classList.remove('show'); // Fecha a navbar
+        navToggle.setAttribute('aria-expanded', 'false'); // Atualiza o atributo aria-expanded
+    }
+}
