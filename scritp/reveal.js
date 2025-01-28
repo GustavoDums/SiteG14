@@ -18,6 +18,13 @@ revelar.reveal('.efeito-title',
     delay: 100
 })
 
+revelar.reveal('.efeito-subtitle',
+{
+    duration: 2000,
+    distance: '60px',
+    delay: 200,
+})
+
 revelar.reveal('.efeito-title-agenda',
 {
     duration: 2000,
@@ -25,14 +32,16 @@ revelar.reveal('.efeito-title-agenda',
     delay: 400
 })
 
-// textos do site
+// Imagem próximos eventos
 
-revelar.reveal('.efeito-subtitle',
+revelar.reveal('.img-proximos',
 {
-    duration: 2200,
-    distance: '60px',
-    delay: 400,
+    duration: 2000,
+    distance: '130px',
+    delay: 400
 })
+
+// textos do site
 
 revelar.reveal('.efeito-texto',
 {
@@ -63,4 +72,12 @@ revelar.reveal('.efeito-iframe-maps',
     distance: '150px',
     delay: 400,
 })
+
+revelar.reveal('.google-calendar',
+{
+    duration: 2000,
+    distance: '250px',
+    delay: 300,
+})
+    
 

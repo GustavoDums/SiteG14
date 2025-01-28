@@ -20,6 +20,11 @@ nav img{
     height: 256%;
 }
 
+.img-proximos{
+    width: 100%;
+    height: auto;
+}
+
 .google-calendar {
     position: relative; 
     z-index: 10; 
@@ -39,7 +44,7 @@ iframe{
 }
 
 .efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localização,
-.efeito-title-agenda, .efeito-iframe-maps{
+.efeito-title-agenda, .efeito-iframe-maps, .img-proximos, .c{
     visibility: hidden;
 }
 
