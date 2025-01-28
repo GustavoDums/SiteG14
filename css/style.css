@@ -21,10 +21,9 @@ nav img{
 }
 
 .google-calendar {
-    position: relative; /* Necessário para o z-index funcionar */
-    z-index: 10; /* Ajuste conforme necessário */
+    position: relative; 
+    z-index: 10; 
 }
-
 
 nav a{
     font-family: Lexend Giga;
