@@ -20,6 +20,12 @@ nav img{
     height: 256%;
 }
 
+.google-calendar {
+    position: relative; /* Necessário para o z-index funcionar */
+    z-index: 10; /* Ajuste conforme necessário */
+}
+
+
 nav a{
     font-family: Lexend Giga;
     color: rgb(223, 223, 223);
