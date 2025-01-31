@@ -16,8 +16,8 @@ h1,h2,h3,h4,h5,h6{
 
 nav img{
     border-radius: 50%;
-    width: 25%;
-    height: 256%;
+    width: 45%;
+    height: 45%;
 }
 
 nav a{
@@ -30,7 +30,7 @@ iframe{
 }
 
 .efeito-iframe-maps{
-    padding: 10px;
+    padding: 5px;
 }
 
 .img-proximos{
@@ -301,3 +301,4 @@ section .slider-a{
         margin-top: 60%;
     }
 }
+
