@@ -78,6 +78,14 @@ main{
     background-color: white;
 }
 
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: small;
+}
+
 .container{
     width: 100%;
     max-width: 720px;
@@ -199,14 +207,6 @@ section.module.parallax-4{
 
 section.module.parallax-5{
     background-image: url(../img/imagem-patio.jpg);
-}
-
-footer{
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    font-size: small;
 }
 
 section.slider{
