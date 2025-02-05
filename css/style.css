@@ -88,9 +88,13 @@ footer{
 
 .container{
     width: 100%;
-    max-width: 720px;
+    max-width: 780px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.container.galery{
+    max-width: 1100px;
 }
 
 .contatos-imagem{
@@ -153,6 +157,16 @@ section.module p{
 section.module.content{
     padding: 40px 0;
     background: #e69232;
+}
+
+section .box img{
+    border-radius: 25px;
+    width: 20%;
+}
+
+section .box{
+    display: flex;
+    gap: 1em;
 }
 
 .localImg{
