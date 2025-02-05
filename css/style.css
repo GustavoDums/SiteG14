@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Lexend+Giga:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Indie+Flower&family=Lexend+Giga:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cabin+Sketch:wght@400;700&family=Indie+Flower&family=Lexend+Giga:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 body{
     margin: 0;
@@ -54,8 +55,9 @@ iframe{
     padding: 90px;
 }
 
-.efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localização,
-.efeito-title-agenda, .efeito-iframe-maps, .img-proximos, .c, .efeito-imagem01, .efeito-subtitle-quemsomos{
+.efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localization,
+.efeito-title-agenda, .efeito-iframe-maps, .img-proximos, .c, .efeito-imagem01, .efeito-subtitle-quemsomos,
+.efeito-texto01, .efeito-title-galery, .galery{
     visibility: hidden;
 }
 
@@ -139,9 +141,10 @@ section.module.parallax .container img{
 }
 
 section.module.parallax h1{
+    font-family: Cabin Sketch;
     color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 80px;
     z-index: 50;
     text-transform: uppercase;
     padding: 30px;

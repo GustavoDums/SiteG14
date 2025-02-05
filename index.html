@@ -52,21 +52,20 @@
                 <a class="nav-link" onclick="fechar()" href="#contatos-anchor">Contatos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" onclick="fechar()" href="#sobre-anchor">Sobre</a>
+                <a class="nav-link" onclick="fechar()" href="#agenda-anchor">Agenda</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" onclick="fechar()" href="#localizacao-anchor">Localização</a>
+                <a class="nav-link" onclick="fechar()" href="#localization-anchor">Localização</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Mais opções
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="nav-link active" onclick="fechar()" aria-current="page" " href="#começo-anchor">Home</a></li>
-                  <li><a class="dropdown-item" onclick="fechar()" href="#agenda-anchor">Agenda</a></li>
+                  <li><a class="dropdown-item" onclick="fechar()" href="#sobre-anchor">Sobre</a></li>
                   <li><a class="dropdown-item" onclick="fechar()" href="#proximos-anchor">Próximos Eventos</a></li>
                   <li><a class="dropdown-item" onclick="fechar()" href="#galery-anchor">Galeria</a></li>
-                  <li><a class="dropdown-item" onclick="fechar()" href="#form-anchor">Formulário Contato</a></li>
+                  <li><a class="dropdown-item" onclick="fechar()" href="#form-anchor">Formulário para contato</a></li>
                   <li><a class="dropdown-item" onclick="fechar()" href="https://www.instagram.com/g14_eventos/">Instagram - Clique para abrir</a></li>
                 </ul>
               </li>
@@ -114,7 +113,7 @@
             <!-- Seção com imagem -->
 
             <section class="module parallax parallax-2">
-                <h1 class="efeito-title">Espaços que encantam, momentos que marcam.</h1>
+                <h1 class="efeito-title" id="sobre-anchor">Espaços que encantam, momentos que marcam.</h1>
             </section>
 
             <!-- Seção sobre a G14 -->
@@ -137,14 +136,14 @@
                 <div class="container">
                     <h2 class="efeito-subtitle">Contatos: </h2>
                     <h2 class="efeito-subtitle contatos-wpp">WHATSAPP & E-MAIL</h2>
-                    <p class="efeito-texto">
+                    <p class="efeito-texto01">
                         <a href="https://api.whatsapp.com/send/?phone=5547996073554&text&type=phone_number&app_absent=0" target="_blank"><img src="./img/zap_png-removebg-preview.png" class="contatos-imagem"></a>
                         <a href="https://api.whatsapp.com/send/?phone=5547996073554&text&type=phone_number&app_absent=0" class="telefone" target="_blank">(47) 99607-3554</a>
                     </p>
-                    <p class="efeito-texto">
+                    <p class="efeito-texto01">
                         <img src="./img/emailll-removebg-preview.png" class="contatos-imagem"> g14eventos.contato@gmail.com
                     </p>
-                    <p class="efeito-texto">
+                    <p class="efeito-texto01">
                         Ficamos à disposição para fornecer qualquer informação adicional ou esclarecer suas dúvidas. Se precisar de assistência, não hesite em nos enviar uma mensagem pelo WhatsApp ou, se preferir, entre em contato conosco por e-mail!
                     </p>
                 </div>
@@ -153,16 +152,17 @@
             <!-- Seção com imagem -->
 
             <section class="module parallax parallax-3">
-                <h1 class="efeito-title" id="sobre-anchor">Cada detalhe pensado para o seu evento ser único.</h1>
+                <h1 class="efeito-title">Cada detalhe pensado para o seu evento ser único.</h1>
             </section>
 
             <!-- Seção da galeira de fotos, precisa trocar as fotos -->
 
             <section class="module content" id="galery-anchor">
-                <center><h1>Galeria de fotos</h1><br></center>
-                <center><h1>Fotos externas: </h1><br></center>
+                <center><h1 class="efeito-title-galery">Galeria de fotos</h1><br></center>
+                <center><h1 class="efeito-title-galery">Fotos externas: </h1><br></center>
                 <div class="container galery">
                     <div id="carouselExampleIndicators" class="carousel slide">
+
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                                 class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -175,6 +175,7 @@
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
                                 aria-label="Slide 5"></button>
                         </div>
+
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="./img/flor.jpg" class="d-block w-100" alt="...">
@@ -192,6 +193,7 @@
                                 <img src="./img/flor.jpg" class="d-block w-100" alt="...">
                             </div>
                         </div>
+
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -202,6 +204,7 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
+
                     </div>
                 </div>
             </section>
@@ -209,9 +212,10 @@
             <!-- Seção do segundo carrossel / precisa adicionar as fotos definitivas-->
 
             <section class="module content">
-                <center><h1>Fotos internas: </h1><br></center>
+                <center><h1 class="efeito-title-galery">Fotos internas: </h1><br></center>
                 <div class="container galery">
                     <div id="carouselExampleCaptions" class="carousel slide">
+
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
                                 class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -220,6 +224,7 @@
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
                         </div>
+
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="./img/imagem-patio-02.jpg" class="d-block w-100" alt="...">
@@ -237,6 +242,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -247,11 +253,12 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
+
                     </div>
                 </div>
             </section>
 
-            <!-- Título com frase -->
+            <!-- Seção com imagem e título com frase -->
 
             <section class="module parallax parallax-4">
                 <h1 class="efeito-title">Espaços que encantam, momentos que marcam.</h1>
@@ -285,10 +292,10 @@
             <!-- Seção da localização com iframe do google maps -->
         
             <section class="module content"> 
-                <div class="container">
+                <div class="container localization">
                     <center><img src="./img/icone_loc-removebg-preview.png" alt="" class="localImg efeito-subtitle-localização">                  
-                    <h2 class="efeito-subtitle-localização" id="localizacao-anchor">Onde estamos localizados?</h2>
-                    </center><h2 class="efeito-subtitle-localização">Rua Estrada Cruzeiro, Nº 3434, São Bento do Sul/SC</h2></center>
+                    <h2 class="efeito-subtitle-localization" id="localization-anchor">Onde estamos localizados?</h2>
+                    </center><h2 class="efeito-subtitle-localization">Rua Estrada Cruzeiro, Nº 3434, São Bento do Sul/SC</h2></center>
                 </div>
                 <center><iframe class="efeito-iframe-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.7324522837393!2d-49.433271488587465!3d-26.20538026392716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ddd30017ccf7b5%3A0xa66b4d00693c3e08!2sG14%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1737552383077!5m2!1spt-BR!2sbr" width="85%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
             </section>
@@ -322,7 +329,7 @@
     <!-- footer do site, precisa arrumar a escrita e ver sobre os direitos -->
 
     <footer>
-        <p>&copy; 2025 G14 Eventos, Todos os direitos reservados.</p>
+        <br><p>&copy; 2025 G14 Eventos CNPJ 00000000/0000-00, Todos os direitos reservados.</p>
         <a href="https://api.whatsapp.com/send/?phone=5547996073554&text&type=phone_number&app_absent=0" class="telefone" target="_blank">(47) 99607-3554</a>
     </footer>
 

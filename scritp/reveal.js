@@ -32,6 +32,23 @@ revelar.reveal('.efeito-title-agenda',
     delay: 400
 })
 
+// galeria de fotos
+
+revelar.reveal('.efeito-title-galery',
+{
+    duration: 2000,
+    distance: '80px',
+    delay: 400
+})
+
+revelar.reveal('.galery',
+{
+    duration: 2000,
+    distance: '300px',
+    delay: 600,
+    origin: 'left'
+})  
+
 // Imagem próximos eventos
 
 revelar.reveal('.img-proximos',
@@ -48,7 +65,7 @@ revelar.reveal('.efeito-subtitle-quemsomos',
     duration: 2300,
     distance: '300px',
     delay: 400,
-    origin: 'right',
+    origin: 'left',
     opacity: 0,
 })
 
@@ -70,6 +87,14 @@ revelar.reveal('.efeito-texto',
     delay: 600,
 })
 
+revelar.reveal('.efeito-texto01',
+{
+    duration: 2100,
+    distance: '150px',
+    delay: 600,
+    origin: 'left',
+})
+
 revelar.reveal('.slider-a',
 {
     duration: 2000,
@@ -77,7 +102,7 @@ revelar.reveal('.slider-a',
     delay: 800,
 })
 
-revelar.reveal('.efeito-subtitle-localização',
+revelar.reveal('.efeito-subtitle-localization',
 {
     duration: 2000,
     distance: '100px',
