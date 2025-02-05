@@ -41,6 +41,26 @@ revelar.reveal('.img-proximos',
     delay: 400
 })
 
+// sobre a g14
+
+revelar.reveal('.efeito-subtitle-quemsomos',
+{
+    duration: 2300,
+    distance: '300px',
+    delay: 400,
+    origin: 'right',
+    opacity: 0,
+})
+
+revelar.reveal('.efeito-imagem01',
+{
+    duration: 2300,
+    distance: '300px',
+    delay: 600,
+    origin: 'left',
+    opacity: 0,
+})
+
 // textos do site
 
 revelar.reveal('.efeito-texto',
