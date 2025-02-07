@@ -30,3 +30,24 @@ function enviarFormulario() {
         alert('Por favor, preencha todos os campos.');
     }
 }
+
+// Pegando a navbar
+var navbar = document.getElementById("navbar");
+    
+// Variáveis para monitorar o scroll
+var lastScrollTop = 0; // Posição do último scroll
+var navbarHeight = navbar.offsetHeight; // Altura da navbar
+
+window.addEventListener("scroll", function() {
+    var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (currentScroll > lastScrollTop && currentScroll > navbarHeight) {
+        // Se o scroll for para baixo, esconder a navbar
+        navbar.style.top = "-" + navbarHeight + "px";
+    } else if (currentScroll < lastScrollTop) {
+        // Se o scroll for para cima, mostrar a navbar
+        navbar.style.top = "0";
+    }
+    
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para evitar valores negativos
+});
