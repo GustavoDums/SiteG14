@@ -248,7 +248,7 @@ section.module.parallax:after{
 }  
 
 section.module.parallax-1 {
-    background-image: url(../img/imagem-patio.jpg);
+    background-image: url(../img/dek03.jpg);
     position: relative;
     overflow: hidden;
 }
@@ -271,7 +271,7 @@ section.module.parallax-1 .efeito-logo {
 }
 
 section.module.parallax-2 {
-    background-image: url(../img/bar.jpg);
+    background-image: url(../img/patio-entrada.jpg);
     position: relative;
     overflow: hidden;
 }
@@ -294,7 +294,7 @@ section.module.parallax-2 h1 {
 }
 
 section.module.parallax-3 {
-    background-image: url(../img/dek-secundario.jpg);
+    background-image: url(../img/bar02.jpg);
     position: relative;
     overflow: hidden;
 }
@@ -317,7 +317,7 @@ section.module.parallax-3 h1 {
 }
 
 section.module.parallax-4 {
-    background-image: url(../img/imagem-patio-02.jpg);
+    background-image: url(../img/dek.jpg);
     position: relative;
     overflow: hidden;
 }
@@ -340,7 +340,7 @@ section.module.parallax-4 h1 {
 }
 
 section.module.parallax-5 {
-    background-image: url(../img/imagem-patio.jpg);
+    background-image: url(../img/imagem-cadeiras-garagem.jpg);
     position: relative;
     overflow: hidden;
 }
