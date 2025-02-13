@@ -78,12 +78,21 @@ revelar.reveal('.efeito-imagem01',
     opacity: 0,
 })
 
+revelar.reveal('.efeito-imagem02',
+{
+    duration: 2400,
+    distance: '400px',
+    delay: 400,
+    origin: 'left',
+    opacity: 0,
+})
+
 // textos do site
 
 revelar.reveal('.efeito-texto',
 {
     duration: 2100,
-    distance: '80px',
+    distance: '150px',
     delay: 600,
 })
 

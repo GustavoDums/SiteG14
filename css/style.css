@@ -85,7 +85,7 @@ iframe{
 }
 
 .efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localization,
-.efeito-title-agenda, .efeito-iframe-maps, .img-proximos, .c, .efeito-imagem01, .efeito-subtitle-quemsomos,
+.efeito-title-agenda, .efeito-iframe-maps, .img-proximos, .c, .efeito-imagem01, .efeito-imagem02, .efeito-subtitle-quemsomos,
 .efeito-texto01, .efeito-title-galery, .galery{
     visibility: hidden;
 }
@@ -144,6 +144,34 @@ section .box img{
 }
 
 section .box{
+    display: flex;
+}
+
+.container.container-02.about02{
+    max-width: 1300px;
+}
+
+@media (min-width: 900px){
+    .container.container-02{
+        display: flex;
+        max-width: 1200px;
+        gap: 3em;
+    }
+}
+
+section .box-about img{
+    width: 700px;
+    height: auto;
+}
+
+@media (max-width: 900px){
+    section .box-about img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
+
+section .box-about{
     display: flex;
 }
 
