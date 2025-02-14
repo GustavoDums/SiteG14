@@ -53,3 +53,15 @@ window.addEventListener("scroll", function() {
     
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Para evitar valores negativos
 });
+
+// Script para alterar a imagem do modal
+var modal = document.getElementById('imageModal');
+var modalImage = document.getElementById('modalImage');
+var images = document.querySelectorAll('[data-bs-toggle="modal"]');
+
+images.forEach(function(image) {
+    image.addEventListener('click', function() {
+        var imageSrc = this.getAttribute('data-bs-img-src');
+        modalImage.src = imageSrc;
+    });
+});
