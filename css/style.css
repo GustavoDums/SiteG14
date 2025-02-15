@@ -130,19 +130,34 @@ footer{
     max-width: 1100px;
 }
 
-/* Estilo personalizado para o modal */
+@media screen and (max-width: 768px) {
+    .efeito-texto {
+        display: none;
+    }
+}
+
 .custom-modal-size {
-    max-width: 80%; /* Aumenta a largura do modal para 95% da tela */
-    width: 80%; /* Define a largura para 95% da tela */
+    max-width: 80%; 
+    width: 80%; 
 }
 
 .custom-modal-size .modal-dialog {
-    max-width: none; /* Remove a limitação do tamanho máximo */
-    width: 100%; /* Faz com que o modal ocupe 100% da largura disponível */
+    max-width: none; 
+    width: 100%; 
 }
 
 .modal-title{
     font-size: 30px;
+}
+
+.efeito-texto.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .efeito-texto.mobile{
+        display: block;
+    }
 }
 
 @media (min-width: 900px){

@@ -1,5 +1,4 @@
 
-
 function fechar() {
     const navBar = document.getElementById('navbarNavDropdown');
     const navToggle = document.querySelector('.navbar-toggler');
@@ -65,3 +64,40 @@ images.forEach(function(image) {
         modalImage.src = imageSrc;
     });
 });
+
+// Função para desabilitar o Modal de expandir fotos em dispositivos móveis
+// Detecta o tipo de dispositivo
+function checkDeviceType() {
+    const isMobile = window.innerWidth <= 768; // Considerando dispositivos móveis com largura de tela <= 768px
+    const modalImages = document.querySelectorAll('[data-bs-toggle="modal"]');
+    const infoText = document.querySelector('.efeito-texto'); // Frase "Clique na imagem para expandir"
+    
+    if (isMobile) {
+        // Para dispositivos móveis, remove o evento de abrir o modal
+        modalImages.forEach(img => {
+            img.removeAttribute('data-bs-toggle');
+            img.removeAttribute('data-bs-target');
+        });
+        
+        // Esconde a frase em dispositivos móveis
+        if (infoText) {
+            infoText.style.display = 'none';
+        }
+    } else {
+        // Caso não seja mobile, deixa a funcionalidade de modal
+        modalImages.forEach(img => {
+            img.setAttribute('data-bs-toggle', 'modal');
+            img.setAttribute('data-bs-target', '#imageModal');
+        });
+        
+        // Exibe a frase em dispositivos não móveis
+        if (infoText) {
+            infoText.style.display = 'block';
+        }
+    }
+}
+
+// Chama a função para verificar o tipo de dispositivo ao carregar a página
+window.addEventListener('load', checkDeviceType);
+// Também chama a função quando o tamanho da tela for alterado (em dispositivos móveis)
+window.addEventListener('resize', checkDeviceType);
