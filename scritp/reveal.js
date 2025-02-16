@@ -58,6 +58,44 @@ revelar.reveal('.img-proximos',
     delay: 400
 })
 
+//Imagem contatos
+
+revelar.reveal('.image-contatos',
+{
+    duration: 2000,
+    distance: '250px',
+    delay: 400,
+    origin: 'left',
+})
+
+// Imagem sobre
+
+revelar.reveal('.image-about',
+{
+    duration: 2000,
+    distance: '250px',
+    delay: 400,
+    origin: 'left',
+})
+
+// Texto das seções Sobre e Contato
+
+revelar.reveal('.sobre-texto',
+{
+    duration: 2000,
+    distance: '100px',
+    delay: 400,
+    origin: 'left'
+})
+
+revelar.reveal('.contatos-texto',
+{
+    duration: 2000,
+    distance: '100px',
+    delay: 400,
+    origin: 'left'
+})
+
 // sobre a g14
 
 revelar.reveal('.efeito-subtitle-quemsomos',

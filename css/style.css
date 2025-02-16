@@ -47,8 +47,8 @@ nav img{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1030; /* Garante que a navbar fique acima de outros elementos */
-    transition: top 0.9s; /* Adiciona uma transição suave */
+    z-index: 1030; 
+    transition: top 0.9s; 
 }
 
 nav a{
@@ -86,7 +86,8 @@ iframe{
 
 .efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localization,
 .efeito-title-agenda, .efeito-iframe-maps, .img-proximos, .c, .efeito-imagem01, .efeito-imagem02, .efeito-subtitle-quemsomos,
-.efeito-texto01, .efeito-title-galery, .galery, .efeito-texto-mobile, .efeito-texto-desktop{
+.efeito-texto01, .efeito-title-galery, .galery, .efeito-texto-mobile, .efeito-texto-desktop, .image-contatos,
+.image-about, .sobre-texto, .contatos-texto{
     visibility: hidden;
 }
 
@@ -137,8 +138,8 @@ footer{
 }
 
 .custom-modal-size {
-    max-width: 80%; 
-    width: 80%; 
+    max-width: 90%; 
+    width: 90%; 
 }
 
 .custom-modal-size .modal-dialog {
@@ -183,9 +184,88 @@ section .box{
     display: flex;
 }
 
-.container.container-02.about02{
-    max-width: 1300px;
+.container.container-02.about02, .container.contatos{    /* CSS para aumentar o tamanhao da seção */
+    max-width: 1500px;
 }
+
+.img-proximos{
+    border-radius: 25px;
+}
+
+
+/* CSS para a seção do sobre a G14 */
+
+.container-02 {
+    display: flex;
+    align-items: stretch;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.sobre-info {
+    width: 50%;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre-info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+
+.sobre-image {
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.sobre-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+    filter: brightness(70%);
+}
+
+.sobre-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .container-02 {
+        flex-direction: column;
+    }
+    .sobre-info, .sobre-image {
+        width: 100%;
+        padding: 0;
+    }
+    .sobre-image img {
+        height: 250px;
+    }
+    .sobre-texto {
+        font-size: 20px;
+    }
+}
+
+/* Fim do CSS para a seção do sobre da G14 */
+
+/* CSS para a seção de contatos da G14 */
 
 @media (min-width: 900px){
     .container.container-02{
@@ -217,6 +297,84 @@ section .box-about{
     vertical-align: middle;
     font-weight: bold;
 }
+
+
+.contatos-container {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.contatos-image {
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+.contatos-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    filter: brightness(70%);
+}
+
+.contatos-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contatos-info {
+    width: 50%;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contatos-info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+
+.efeito-texto01 {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .contatos-container {
+        flex-direction: column;
+    }
+    .contatos-image, .contatos-info {
+        width: 100%;
+    }
+    .contatos-image img {
+        height: 250px;
+    }
+    .contatos-texto {
+        font-size: 20px;
+    }
+}
+
+
+/* Fim do CSS para a seção de contatos da G14 */
+
 
 section.module:last-child{
     margin-bottom: 0;
