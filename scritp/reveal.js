@@ -118,6 +118,20 @@ revelar.reveal('.efeito-subtitle-localization',
     delay: 200,
 })
 
+revelar.reveal('.efeito-texto-mobile',
+{
+    duration: 2000,
+    distance: '150px',
+    delay: 200,
+})
+
+revelar.reveal('.efeito-texto-desktop',
+{
+    duration: 2000,
+    distance: '150px',
+    delay: 200,
+})
+
 // efeito iframe
 
 revelar.reveal('.efeito-iframe-maps',

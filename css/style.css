@@ -86,7 +86,7 @@ iframe{
 
 .efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localization,
 .efeito-title-agenda, .efeito-iframe-maps, .img-proximos, .c, .efeito-imagem01, .efeito-imagem02, .efeito-subtitle-quemsomos,
-.efeito-texto01, .efeito-title-galery, .galery{
+.efeito-texto01, .efeito-title-galery, .galery, .efeito-texto-mobile, .efeito-texto-desktop{
     visibility: hidden;
 }
 
@@ -131,7 +131,7 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-    .efeito-texto {
+    .efeito-texto-mobile {
         display: none;
     }
 }
@@ -150,13 +150,19 @@ footer{
     font-size: 30px;
 }
 
-.efeito-texto.mobile{
+.efeito-texto-mobile{
     display: none;
 }
 
 @media screen and (max-width: 768px) {
-    .efeito-texto.mobile{
+    .efeito-texto-mobile{
         display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .efeito-texto-desktop{
+        display: none;
     }
 }
 

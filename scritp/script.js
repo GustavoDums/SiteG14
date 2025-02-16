@@ -78,11 +78,7 @@ function checkDeviceType() {
             img.removeAttribute('data-bs-toggle');
             img.removeAttribute('data-bs-target');
         });
-        
-        // Esconde a frase em dispositivos móveis
-        if (infoText) {
-            infoText.style.display = 'none';
-        }
+
     } else {
         // Caso não seja mobile, deixa a funcionalidade de modal
         modalImages.forEach(img => {
