@@ -203,6 +203,32 @@ section .box{
     width: 100%;
 }
 
+.sobre-info2{ 
+margin: 10%;
+}
+
+.efeitosobre{
+margin: 6%;
+}
+.efeitosobrepistadedança{
+    margin: 30%;
+    margin-top: 5%;
+}
+
+.efeitosobrequiosque {
+margin: 25%;
+margin-top:5% ;
+}
+
+.efeitosobrebar{
+    margin: 30%;
+    margin-top: 5%;
+}
+
+.efeito-textopista, .efeitosobrepistadedança{
+    margin-top: 5%;
+}
+
 .sobre-info {
     width: 50%;
     padding: 30px;

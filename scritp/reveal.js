@@ -1,5 +1,5 @@
 
-window.revelar = ScrollReveal({reset:true})
+window.revelar = ScrollReveal({reset:false})
 
 // topo do site
 
@@ -55,7 +55,7 @@ revelar.reveal('.img-proximos',
 {
     duration: 2000,
     distance: '130px',
-    delay: 400
+    delay: 300
 })
 
 //Imagem contatos
@@ -64,7 +64,7 @@ revelar.reveal('.image-contatos',
 {
     duration: 2000,
     distance: '250px',
-    delay: 400,
+    delay: 300,
     origin: 'left',
 })
 
@@ -74,7 +74,7 @@ revelar.reveal('.image-about',
 {
     duration: 2000,
     distance: '250px',
-    delay: 400,
+    delay: 300,
     origin: 'left',
 })
 
@@ -84,7 +84,7 @@ revelar.reveal('.sobre-texto',
 {
     duration: 2000,
     distance: '100px',
-    delay: 400,
+    delay: 300,
     origin: 'left'
 })
 
