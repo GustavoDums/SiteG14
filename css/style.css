@@ -204,6 +204,46 @@ section .box{
     border-radius: 25px;
 }
 
+/* Estilo para a seção de informações sobre o local */
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.sobre-imagem {
+    width: 40%;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.sobre-info2 {
+    width: 55%;
+    text-align: left;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+    .sobre-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .sobre-imagem, .sobre-info2 {
+        width: 100%;
+    }
+}
+
+/* Fim do Estilo para a seção de informações sobre o local */
+
 /* CSS para a seção do sobre a G14 */
 
 .container-02 {
@@ -212,32 +252,6 @@ section .box{
     border-radius: 12px;
     overflow: hidden;
     width: 100%;
-}
-
-.sobre-info2{ 
-margin: 10%;
-}
-
-.efeitosobre{
-margin: 6%;
-}
-.efeitosobrepistadedança{
-    margin: 30%;
-    margin-top: 5%;
-}
-
-.efeitosobrequiosque {
-margin: 25%;
-margin-top:5% ;
-}
-
-.efeitosobrebar{
-    margin: 30%;
-    margin-top: 5%;
-}
-
-.efeito-textopista, .efeitosobrepistadedança{
-    margin-top: 5%;
 }
 
 .sobre-info {
