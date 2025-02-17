@@ -66,7 +66,6 @@
                   <li><a class="dropdown-item" onclick="fechar()" href="#sobre02-anchor">Informações do local</a></li>
                   <li><a class="dropdown-item" onclick="fechar()" href="#proximos-anchor">Próximos Eventos</a></li>
                   <li><a class="dropdown-item" onclick="fechar()" href="#galery-anchor">Galeria</a></li>
-                  <li><a class="dropdown-item" onclick="fechar()" href="#form-anchor">Formulário para contato</a></li>
                   <li><a class="dropdown-item" onclick="fechar()" href="https://www.instagram.com/g14_eventos/"  target="_blank">Instagram - Clique para abrir</a></li>
                 </ul>
               </li>
@@ -114,16 +113,16 @@
             <!-- Seção com imagem -->
 
             <section class="module parallax parallax-2">
-                <h1 class="efeito-title" id="sobre-anchor">Espaços que encantam, momentos que marcam.</h1>
+                <h1 class="efeito-title">Espaços que encantam, momentos que marcam.</h1>
             </section>
 
             <!-- Seção sobre a G14 -->
 
-            <section class="module content about01">
+            <section class="module content about01" id="sobre-anchor">
                 <div class="container container-02 about02">
                     <div class="sobre-info">
                         <h2 class="efeito-subtitle">O melhor local de eventos</h2>
-                        <p class="efeito-texto" id="contatos-anchor">
+                        <p class="efeito-texto">
                             O G14 Eventos oferece um espaço sofisticado e acolhedor, ideal para casamentos, aniversários e outras celebrações especiais.
                             Localizado em São Bento do Sul/SC, nosso ambiente combina beleza natural e estrutura moderna, criando a atmosfera perfeita para
                             momentos inesquecíveis. Cada detalhe é pensado para proporcionar conforto e qualidade, com uma equipe dedicada para garantir
@@ -138,7 +137,7 @@
 
             <!-- Seção dos contatos -->
 
-            <section class="module content">
+            <section class="module content" id="contatos-anchor">
                 <div class="container contatos">
                     <div class="contatos-container">
                         <div class="contatos-image">
@@ -159,6 +158,30 @@
                                 Ficamos à disposição para fornecer qualquer informação adicional ou esclarecer suas dúvidas. Se precisar de assistência, não hesite em nos enviar uma mensagem pelo WhatsApp ou, se preferir, entre em contato conosco por e-mail!
                             </p>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- seção do formulário para envio -->
+
+            <section class="module content">
+                <div class="container">
+                    <h2 class="efeito-subtitle">Envie a sua mensagem!</h2>
+                    <p class="efeito-texto">A mensagem será enviada via WhatsApp</p>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="seu-email@exemplo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="msg" class="form-label">Escreva a sua mensagem:</label>
+                        <textarea class="form-control" id="msg" rows="3"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit" onclick="enviarFormulario()">Enviar</button>
                     </div>
                 </div>
             </section>
@@ -395,30 +418,6 @@
                     </center><h2 class="efeito-subtitle-localization">Rua Estrada Cruzeiro, Nº 3434, São Bento do Sul/SC</h2></center>
                 </div>
                 <center><iframe class="efeito-iframe-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.7324522837393!2d-49.433271488587465!3d-26.20538026392716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ddd30017ccf7b5%3A0xa66b4d00693c3e08!2sG14%20Eventos!5e0!3m2!1spt-BR!2sbr!4v1737552383077!5m2!1spt-BR!2sbr" width="85%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
-            </section>
-
-            <!-- seção do formulário para envio -->
-
-            <section class="module content">
-                <div class="container" id="form-anchor">
-                    <h2 class="efeito-subtitle">Envie a sua mensagem!</h2>
-                    <p class="efeito-texto">A mensagem será enviada via WhatsApp</p>
-                    <div class="mb-3">
-                        <label for="nome" class="form-label">Nome:</label>
-                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="email" placeholder="seu-email@exemplo.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="msg" class="form-label">Escreva a sua mensagem:</label>
-                        <textarea class="form-control" id="msg" rows="3"></textarea>
-                    </div>
-                    <div class="col-12">
-                        <button class="btn btn-primary" type="submit" onclick="enviarFormulario()">Enviar</button>
-                    </div>
-                </div>
             </section>
             
         </main>
