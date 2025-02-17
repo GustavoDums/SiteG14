@@ -91,7 +91,7 @@ iframe{
 .efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localization,
 .efeito-title-agenda, .efeito-iframe-maps, .img-proximos, .c, .efeito-imagem01, .efeito-imagem02, .efeito-subtitle-quemsomos,
 .efeito-texto01, .efeito-title-galery, .galery, .efeito-texto-mobile, .efeito-texto-desktop, .image-contatos,
-.image-about, .sobre-texto, .contatos-texto{               /* Estilos dos efeitos do ScrollReveal */
+.image-about, .sobre-texto, .contatos-texto, .efeito-subtitle2, .efeito-texto-informacoes, .sobre-imagem {               /* Estilos dos efeitos do ScrollReveal */
     visibility: hidden;
 }
 

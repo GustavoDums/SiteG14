@@ -49,6 +49,31 @@ revelar.reveal('.galery',
     origin: 'left'
 })  
 
+// Seção de informações
+
+revelar.reveal('.efeito-subtitle2',
+{
+    duration: 2000,
+    distance: '100px',
+    delay: 400
+})
+
+revelar.reveal('.efeito-texto-informacoes',
+{
+    duration: 2000,
+    distance: '200px',
+    delay: 600,
+    origin: 'left'
+})
+
+revelar.reveal('.sobre-imagem',
+{
+    duration: 2000,
+    distance: '300px',
+    delay: 800,
+    origin: 'left'
+})  
+
 // Imagem próximos eventos
 
 revelar.reveal('.img-proximos',
