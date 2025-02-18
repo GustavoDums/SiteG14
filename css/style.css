@@ -59,7 +59,7 @@ nav a{
     color: rgb(223, 223, 223);
 }
 
-/* Estilo da navbar */
+/* fim estilo da navbar */
 
 iframe{
     padding: 60px;
@@ -88,10 +88,11 @@ iframe{
     padding: 90px;
 }
 
+/* Estilos dos efeitos do ScrollReveal */
 .efeito-logo, .efeito-subtitle, .efeito-texto, .efeito-title, .slider-a, .efeito-subtitle-localization,
 .efeito-title-agenda, .efeito-iframe-maps, .img-proximos, .c, .efeito-imagem01, .efeito-imagem02, .efeito-subtitle-quemsomos,
 .efeito-texto01, .efeito-title-galery, .galery, .efeito-texto-mobile, .efeito-texto-desktop, .image-contatos,
-.image-about, .sobre-texto, .contatos-texto, .efeito-subtitle2, .efeito-texto-informacoes, .sobre-imagem {               /* Estilos dos efeitos do ScrollReveal */
+.image-about, .sobre-texto, .contatos-texto, .efeito-subtitle2, .efeito-texto-informacoes, .sobre-imagem {               
     visibility: hidden;
 }
 
@@ -220,7 +221,7 @@ section .box{
 }
 
 .sobre-imagem {
-    width: 40%;
+    width: 50%;
 }
 
 .sobre-imagem img {
@@ -421,9 +422,10 @@ section .box-about{
     }
 }
 
-
 /* Fim do CSS para a seção de contatos da G14 */
 
+
+/* Estilo para as seções e efeito prallax */
 
 section.module:last-child{
     margin-bottom: 0;
@@ -626,3 +628,6 @@ section.module.parallax-5 iframe, h1 {
     position: relative;
     z-index: 2; /* Garante que as imagens internas fiquem acima do filtro */
 }
+
+
+/* FIM Estilo para as seções e efeito prallax */
