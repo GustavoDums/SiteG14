@@ -147,6 +147,10 @@ footer{
     display: none;
 }
 
+.efeito-texto-informacoes{
+    font-size: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .efeito-texto-mobile {
         display: none;
