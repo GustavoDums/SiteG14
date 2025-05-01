@@ -518,6 +518,14 @@ section.module.parallax{
     -o-background-size: cover;
 }
 
+@media (max-width: 768px) {
+    section.module.parallax {
+        background-attachment: scroll;
+        background-position: center top;
+        background-size: cover;
+    }
+}
+
 section.module.parallax:after{
     content: "";
     height: 100%;
@@ -542,7 +550,7 @@ section.module.parallax-1::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: inherit; /* mantém a imagem de fundo original */
+    background: rgba(0, 0, 0, 0.4); /* mantém a imagem de fundo original */
     filter: brightness(65%); /* Aplica o filtro de brilho */
     z-index: 1; /* Coloca a camada de filtro atrás do conteúdo */
 }
@@ -565,7 +573,7 @@ section.module.parallax-2::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: inherit; /* mantém a imagem de fundo original */
+    background: rgba(0, 0, 0, 0.4); /* mantém a imagem de fundo original */
     filter: brightness(65%); /* Aplica o filtro de brilho */
     z-index: 1; /* Coloca a camada de filtro atrás do conteúdo */
 }
@@ -588,7 +596,7 @@ section.module.parallax-3::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: inherit; /* mantém a imagem de fundo original */
+    background: rgba(0, 0, 0, 0.4); /* mantém a imagem de fundo original */
     filter: brightness(65%); /* Aplica o filtro de brilho */
     z-index: 1; /* Coloca a camada de filtro atrás do conteúdo */
 }
@@ -611,7 +619,7 @@ section.module.parallax-4::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: inherit; /* mantém a imagem de fundo original */
+    background: rgba(0, 0, 0, 0.4); /* mantém a imagem de fundo original */
     filter: brightness(65%); /* Aplica o filtro de brilho */
     z-index: 1; /* Coloca a camada de filtro atrás do conteúdo */
 }
@@ -634,7 +642,7 @@ section.module.parallax-5::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: inherit; /* mantém a imagem de fundo original */
+    background: rgba(0, 0, 0, 0.4); /* mantém a imagem de fundo original */
     filter: brightness(65%); /* Aplica o filtro de brilho */
     z-index: 1; /* Coloca a camada de filtro atrás do conteúdo */
 }
@@ -643,6 +651,7 @@ section.module.parallax-5 iframe, h1 {
     position: relative;
     z-index: 2; /* Garante que as imagens internas fiquem acima do filtro */
 }
+
 
 
 /* FIM Estilo para as seções e efeito prallax */

@@ -114,4 +114,28 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       }
     });
   });
+
+  function applyParallaxMobile() {
+    const parallaxSections = document.querySelectorAll('section.module.parallax');
+
+    function updateParallax() {
+        if (window.innerWidth <= 768) {
+            parallaxSections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    // Calcula deslocamento baseado na posição dentro da viewport
+                    const offset = window.scrollY - section.offsetTop;
+                    section.style.backgroundPosition = `center ${offset * 0.3}px`;
+                }
+            });
+        }
+    }
+
+    window.addEventListener('scroll', updateParallax);
+    window.addEventListener('resize', updateParallax);
+    updateParallax();
+}
+
+window.addEventListener('DOMContentLoaded', applyParallaxMobile);
   
